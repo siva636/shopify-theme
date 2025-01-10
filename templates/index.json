@@ -9,6 +9,61 @@
  */
 {
   "sections": {
+    "slideshow_MYxRAV": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Tdyt6g": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_3vi5mt3vi5mt3vi5_2b5d5a29-21b7-44b4-92f5-a96e43e4618f.jpg",
+            "heading": "Show your love or gratitude",
+            "heading_size": "h1",
+            "subheading": "No matter it is happy or sad",
+            "button_label": "Go",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_7TUDQp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_np1vnqnp1vnqnp1v.jpg",
+            "heading": "Show your love or gratitude",
+            "heading_size": "h1",
+            "subheading": "No matter it is happy or sad",
+            "button_label": "Go",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Tdyt6g",
+        "slide_7TUDQp"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -32,6 +87,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "height": "large",
         "desktop_image_width": "large",
@@ -77,6 +133,7 @@
     }
   },
   "order": [
+    "slideshow_MYxRAV",
     "image-with-text",
     "featured-collection"
   ]
