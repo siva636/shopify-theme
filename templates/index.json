@@ -14,11 +14,12 @@
       "blocks": {
         "slide_Tdyt6g": {
           "type": "slide",
+          "source": "{{ shop.metaobjects.home_page_carousel[\"show-love-and-affection\"] }}",
           "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_3vi5mt3vi5mt3vi5_2b5d5a29-21b7-44b4-92f5-a96e43e4618f.jpg",
-            "heading": "Show your love or gratitude",
+            "image": "{{ shop.metaobjects.home_page_carousel[\"show-love-and-affection\"].image.value }}",
+            "heading": "{{ shop.metaobjects.home_page_carousel[\"show-love-and-affection\"].slogan.value }}",
             "heading_size": "h1",
-            "subheading": "No matter it is happy or sad",
+            "subheading": "{{ shop.metaobjects.home_page_carousel[\"show-love-and-affection\"].subheading.value }}",
             "button_label": "Go",
             "link": "shopify://collections/all",
             "button_style_secondary": false,
@@ -32,11 +33,12 @@
         },
         "slide_7TUDQp": {
           "type": "slide",
+          "source": "{{ shop.metaobjects.home_page_carousel[\"express-heartfelt-gratitude\"] }}",
           "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_np1vnqnp1vnqnp1v.jpg",
-            "heading": "Show your love or gratitude",
+            "image": "{{ shop.metaobjects.home_page_carousel[\"express-heartfelt-gratitude\"].image.value }}",
+            "heading": "{{ shop.metaobjects.home_page_carousel[\"express-heartfelt-gratitude\"].slogan.value }}",
             "heading_size": "h1",
-            "subheading": "No matter it is happy or sad",
+            "subheading": "{{ shop.metaobjects.home_page_carousel[\"express-heartfelt-gratitude\"].subheading.value }}",
             "button_label": "Go",
             "link": "shopify://collections/all",
             "button_style_secondary": false,
@@ -52,6 +54,9 @@
       "block_order": [
         "slide_Tdyt6g",
         "slide_7TUDQp"
+      ],
+      "custom_css": [
+        ".banner__box {opacity: 0.6;}"
       ],
       "settings": {
         "layout": "full_bleed",
