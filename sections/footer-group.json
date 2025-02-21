@@ -37,6 +37,7 @@
         "paragraph",
         "email-form"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "full_width": true,
@@ -47,7 +48,7 @@
     "footer": {
       "type": "footer",
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-5",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
@@ -55,7 +56,7 @@
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": false,
-        "show_policy": true,
+        "show_policy": false,
         "margin_top": 0,
         "padding_top": 44,
         "padding_bottom": 48
