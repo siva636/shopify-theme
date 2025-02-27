@@ -1,6 +1,6 @@
-# An online flower storefront with Shopify Liquid
+# An online flowers storefront with Shopify Sense Theme
 
-## Use password as 123 to open this demo storefront
+Use password as 123 to open this demo storefront
 
 https://siva636-theme.myshopify.com/
 
